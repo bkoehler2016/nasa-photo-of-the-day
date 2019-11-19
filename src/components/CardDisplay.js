@@ -9,7 +9,7 @@ export default function CardDisplay({ limit }) {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
 
-  const randomDate = `${randomNum(2007, 2019)}-${randomNum(1, 12)}-${randomNum(
+  const randomDate = `${randomNum(1982, 2019)}-${randomNum(1, 12)}-${randomNum(
     1,
     28
   )}`;
