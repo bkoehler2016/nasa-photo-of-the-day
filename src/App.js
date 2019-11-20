@@ -1,5 +1,6 @@
 import React from "react";
 import CardDispay from "./components/CardDisplay";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";
 
