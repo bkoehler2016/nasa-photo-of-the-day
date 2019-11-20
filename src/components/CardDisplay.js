@@ -9,11 +9,11 @@ export default function CardDisplay({ limit }) {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
 
-  const randomDate = `${randomNum(2000, 2018)}-${randomNum(1, 12)}-${randomNum(
+  const randomDate = `${randomNum(2016, 2018)}-${randomNum(1, 12)}-${randomNum(
     1,
     28
   )}`;
-  console.log(randomNum(2001, 2018));
+  console.log(randomNum(2016, 2018));
 
   useEffect(() => {
     axios
