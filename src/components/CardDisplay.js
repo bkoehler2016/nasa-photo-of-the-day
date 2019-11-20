@@ -9,7 +9,7 @@ export default function CardDisplay({ limit }) {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
 
-  const randomDate = `${randomNum(1982, 2018)}-${randomNum(1, 12)}-${randomNum(
+  const randomDate = `${randomNum(2000, 2018)}-${randomNum(1, 12)}-${randomNum(
     1,
     28
   )}`;
@@ -24,7 +24,7 @@ export default function CardDisplay({ limit }) {
         console.log(response.data);
         setCardInfo(response.data);
       });
-  }, {});
+  }, []);
 
   return (
     <div className="containter">
