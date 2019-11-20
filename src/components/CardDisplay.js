@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Card from "./card";
 
-export default function CardDisplay({ limit }) {
+export default function CardDisplay() {
   const [cardInfo, setCardInfo] = useState({});
 
   function randomNum(min, max) {
