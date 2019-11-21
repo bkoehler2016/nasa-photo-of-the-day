@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { Container } from "reactstrap";
 
 import Card from "./card";
 
@@ -28,7 +29,7 @@ export default function CardDisplay({ limit }) {
   }, []);
 
   return (
-    <div className="containter">
+    <Container>
       <Card
         key={cardInfo.url}
         title={cardInfo.title}
@@ -36,6 +37,6 @@ export default function CardDisplay({ limit }) {
         url={cardInfo.url}
         explanation={cardInfo.explanation}
       />
-    </div>
+    </Container>
   );
 }
