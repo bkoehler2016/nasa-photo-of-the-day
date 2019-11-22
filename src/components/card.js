@@ -4,8 +4,13 @@ import { Container } from "reactstrap";
 import { CardTitle, CardSubtitle } from "reactstrap";
 
 const Cardset = props => {
+  function reloadImage() {
+    window.location.reload(false);
+  }
   return (
     <Container key={props.id}>
+      <button onClick={reloadImage}>Get new Image</button>
+      <hr />
       <Cardstyle color="dark" className="text-white">
         <CardTitle>{props.date}</CardTitle>
         <h3>{props.title}</h3>
