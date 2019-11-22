@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: lightgrey;
 }
 
 .card h2 {
@@ -39,6 +40,7 @@ img {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
