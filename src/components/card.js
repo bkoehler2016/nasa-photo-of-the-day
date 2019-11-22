@@ -10,7 +10,8 @@ const Cardset = props => {
   return (
     <Container key={props.id}>
       <button onClick={reloadImage}>Get new Image</button>
-      <hr />
+      <br />
+      <br />
       <Cardstyle color="dark" className="text-white">
         <CardTitle>{props.date}</CardTitle>
         <h3>{props.title}</h3>
