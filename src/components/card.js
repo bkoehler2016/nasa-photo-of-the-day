@@ -7,8 +7,8 @@ const Cardset = props => {
   return (
     <Container key={props.id}>
       <Cardstyle color="dark" className="text-white">
-        <h3>{props.date}</h3>
-        <CardTitle>{props.title}</CardTitle>
+        <CardTitle>{props.date}</CardTitle>
+        <h3>{props.title}</h3>
         <img width="100%" alt="Random NASA pic of the day" src={props.url} />
         <hr></hr>
         <CardSubtitle>{props.explanation}</CardSubtitle>
