@@ -9,7 +9,7 @@ const Cardset = props => {
       <Cardstyle color="dark" className="text-white">
         <h3>{props.date}</h3>
         <CardTitle>{props.title}</CardTitle>
-        <img alt="Random NASA pic of the day" src={props.url} />
+        <img width="100%" alt="Random NASA pic of the day" src={props.url} />
         <hr></hr>
         <CardSubtitle>{props.explanation}</CardSubtitle>
       </Cardstyle>
