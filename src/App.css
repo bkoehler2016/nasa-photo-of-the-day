@@ -1,5 +1,23 @@
 .App {
   text-align: center;
+  background-color: lightgrey;
+}
+
+.card h2 {
+  margin: 20px;
+}
+
+button {
+  background-color: black;
+  color: #61dafb;
+}
+
+img {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
 }
 
 .App-logo {
@@ -27,6 +45,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

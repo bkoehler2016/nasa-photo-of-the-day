@@ -1,13 +1,16 @@
 import React from "react";
 import "./App.css";
+import CardDispay from "./components/CardDisplay";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Jumbotron } from "reactstrap";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <Jumbotron>
+        <h1>Random NASA Photo of the Day</h1>
+      </Jumbotron>
+      <CardDispay limit={1} />
     </div>
   );
 }
