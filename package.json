@@ -12,11 +12,14 @@
     "reactstrap": "^8.1.1",
     "styled-components": "^4.4.1"
   },
+  "homepage": "https://bkoehler2016.github.io/nasa-photo-of-the-day/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
